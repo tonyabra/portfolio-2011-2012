@@ -1,0 +1,428 @@
+<html><h1>The H1 tag looks like this</h1>
+<p>The paragraph tag after an H1 tag looks like this</p>
+<h2>The H2 tag looks like this</h2>
+<p>The paragraph tag after an H2 tag looks like this</p>
+<h3>The H3 tag looks like this</h3>
+<p>The paragraph tag after an H3 tag looks like this</p>
+<h4>The H4 tag looks like this</h4>
+<p>The paragraph tag after an H4 tag looks like this</p>
+<h5>The H5 tag looks like this</h5>
+<p>The paragraph tag after an H5 tag looks like this</p>
+<ol>
+<li><strong>This is a strong element in an ordered list</strong></li>
+<li><i>This is an italic element in an ordered list</i></li>
+<li><b>This is a bold element in an ordered list</b></li>
+<li><em>This is an emphasized element in an ordered list</em></li>
+<li>This is a regular element in an ordered list</li>
+</ol>
+<ul>
+<li><strong>This is a strong element in an unordered list</strong></li>
+<li><i>This is an italic element in an unordered list</i></li>
+<li><b>This is a bold element in an unordered list</b></li>
+<li><em>This is an emphasized element in an unordered list</em></li>
+<li>This is a regular element in an unordered list</li>
+</ul>
+<blockquote>The block quote element looks like this</blockquote>
+<pre>The pre element looks like this</pre>
+<code>The code element looks like this</code>
+<br/>
+<span>The span element looks like this</span>
+<br/>
+<a href="#">The anchor element looks like this</a>
+<br/>
+<br/>
+<div style="float:left;margin:20px;width:200px;">Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:400px;">Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:600px;">Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.</div><style>    html, body{
+      background: #000;
+    }
+    
+    a img{
+    	border: none;
+    }
+
+    img.mbody{
+      position: absolute; 
+      z-index: 5;
+      top: 200px;
+      left: 0px;
+    }
+
+    img.mlip{
+      position:absolute;
+      z-index: 1;
+      top: 333px;
+      left: 657px;
+    }
+
+    img.mwheel{
+      position:absolute;
+      z-index: 4;
+      top: 70px;
+      left: 176px;
+      -webkit-transform: rotate(128.7deg);
+      -moz-transform: rotate(128.7deg);
+    }
+
+    img.mdot{
+      position:absolute;
+      z-index: 5;
+      top: 248px;
+      left: 353px;
+    }
+
+    .tape{
+      position:absolute;
+      z-index: 3;
+      top: 395px;
+      left: 525px;
+      margin-right: 100px;
+      height: 146px;
+      width: 2874px;
+      background-image: url('../label/tape.png'); 
+      background-repeat: repeat-x;
+      display: none;
+    }   
+
+    .tapeWrapper{
+      height: 55px;
+      width: 100%;
+      overflow: hidden;
+     }
+
+    img.letter{
+     float: right;
+     margin: 8px 3px 0 0;
+    }
+
+	.labeler{
+		position: relative;
+	}
+
+    .window{
+      position:absolute;
+      z-index: 5;
+      top: 394px;
+      left: 550px;
+      display: block;
+      height: 100px;
+      width: 50px;
+      background: black;
+      filter: alpha(opacity=65);                                                                           
+      opacity: 0.65;  
+    }
+
+    img.mwheel{           
+     -webkit-animation-duration: 15s;                                                                         
+     -webkit-animation-timing-function: linear;   
+     -webkit-animation-iteration-count: 1;
+
+    }
+    
+    .tape{
+     -webkit-animation-duration: 15s;
+     -webkit-animation-timing-function: linear;
+     -webkit-animation-iteration-count: 1;
+    }
+
+	.tapeLink{
+		text-decoration: none;
+		position: absolute;
+		z-index: 50;
+		height: 55px;
+	}
+
+	#thanksLink{
+		width: 260px;
+	}
+
+	#dayLink{
+		width: 235px;
+	}
+
+	#throwLink{
+		width: 670px;
+	}
+
+	#bagLink{
+		width: 480px;
+	}
+	
+	.display{
+		position: absolute;
+		width: 550px;
+		color: white;
+		top: 210px;
+		font-family: "courier new", courier, monospace;
+		margin-bottom: 100px;
+		border: 10px dashed white;
+		display: block;
+		font-size: 15px;
+	}
+
+	.displayTop{
+		width: 550px;
+		color: white;
+		font-family: "courier new", courier, monospace;
+		margin-bottom: 100px;
+		border: 10px dashed white;
+		display: block;
+		font-size: 15px;
+	}
+
+	.bottomBox{
+		display: block;
+		width: 100px;
+		height: 70px;
+		z-index: 10;
+		position: absolute;
+	}
+	
+	.topLine{
+		position: absolute;
+		top: 80px;
+		display: block;
+		height: 125px;
+		width: 350px;
+		border-right: 10px dashed white;
+		display: none;
+	}
+	
+	#jack{
+		display: block;
+		width: 100px;
+		height: 50px;
+		border: 1px solid white;
+		display: none;
+	}
+
+    #wbezDisplay{
+    	right: 50px;
+    }
+
+    #wbezLine{
+    	right: 455px;
+    }
+
+    #dayDisplay{
+    	right: 1350px;
+    }
+
+    #dayLine{
+    	right: 1415px;
+    }
+
+    #throwDisplay{
+    	right: 700px;
+    }
+    
+    #throwLine{
+    	right: 1050px;
+    }
+    
+    #bagDisplay{
+    	right: 2000px;
+    }
+    
+    #bagLine{
+    	right: 2105px;
+    }
+
+    .displayFormat p{
+    	font-size: 18px;
+    	margin: 15px 20px 15px 20px;
+    	line-height: 22px;
+    }
+    
+    .displayFormat a{
+    	text-decoration: none;
+    }
+    
+    .displayFormat h1{
+    	font-family: helvetica, arial, sans-serif;
+    	font-size: 36px;
+    	margin: 25px 20px 0 20px;
+    }
+    
+    .displayFormat h2{
+    	font-size: 24px;
+    	font-family: helvetica, arial, sans-serif;
+    	margin: 10px 25px;	
+    }
+    
+    p.introPar{
+    	text-align: center;
+    }
+    
+    .blockBox{
+    	width: 100px;
+    	height: 68px;
+    	top: 0px;
+    	display: block;
+		position: absolute;
+		z-index: 100;
+		border: 1px solid orange;
+    }
+    
+    a.blockLink{
+    	width: 100%;
+    	height: 100%;
+		display: block;
+		text-decoration: none;
+		border: 1px solid green;
+    }
+	
+	#day{
+		right: 1365px;
+		width: 250px;
+	}
+
+	#throw{
+		right: 605px;
+		width: 675px;
+	}
+
+	#bag{
+		right: 1705px;
+		width: 470px;
+	}
+
+	#wbez{
+		right: 400px;
+		width: 115px;
+	}
+
+
+    a.closeMe{
+    	clear: both;
+    	float: right;
+    	color: blue;
+    	margin: 0 15px 15px 0;
+    	text-decoration: none;
+		font-size: 16px;
+    }
+    
+   @-webkit-keyframes rot{
+     	0% {-webkit-transform: rotate(128.7deg);}
+		10% {-webkit-transform: rotate(128.7deg);}
+		10.79% {-webkit-transform: rotate(60.06deg);} 
+		11.58% {-webkit-transform: rotate(60.06deg);} 
+		12.37% {-webkit-transform: rotate(60.06deg);} 
+		13.16% {-webkit-transform: rotate(240.24deg);} 
+		13.95% {-webkit-transform: rotate(291.72deg);} 
+		14.74% {-webkit-transform: rotate(205.92deg);} 
+		15.53% {-webkit-transform: rotate(60.06deg);} 
+		16.32% {-webkit-transform: rotate(-34.32deg);} 
+		17.11% {-webkit-transform: rotate(-60.06deg);} 
+		17.89% {-webkit-transform: rotate(51.48deg);} 
+		18.68% {-webkit-transform: rotate(-8.58deg);} 
+		19.47% {-webkit-transform: rotate(-111.54deg);} 
+		20.26% {-webkit-transform: rotate(60.06deg);} 
+		21.05% {-webkit-transform: rotate(128.7deg);} 
+		21.84% {-webkit-transform: rotate(128.7deg);} 
+		22.63% {-webkit-transform: rotate(128.7deg);} 
+		23.42% {-webkit-transform: rotate(60.06deg);} 
+		24.21% {-webkit-transform: rotate(197.34deg);} 
+		25.00% {-webkit-transform: rotate(377.52deg);} 
+		25.79% {-webkit-transform: rotate(403.26deg);} 
+		26.58% {-webkit-transform: rotate(583.44deg);} 
+		27.37% {-webkit-transform: rotate(420.42deg);} 
+		28.16% {-webkit-transform: rotate(489.06deg);} 
+		28.95% {-webkit-transform: rotate(489.06deg);} 
+		29.74% {-webkit-transform: rotate(489.06deg);} 
+		30.53% {-webkit-transform: rotate(420.42deg);} 
+		31.32% {-webkit-transform: rotate(566.28deg);} 
+		32.11% {-webkit-transform: rotate(411.84deg);} 
+		32.89% {-webkit-transform: rotate(583.44deg);} 
+		33.68% {-webkit-transform: rotate(411.84deg);} 
+		34.47% {-webkit-transform: rotate(420.42deg);} 
+		35.26% {-webkit-transform: rotate(257.4deg);} 
+		36.05% {-webkit-transform: rotate(248.82deg);} 
+		36.84% {-webkit-transform: rotate(351.78deg);} 
+		37.63% {-webkit-transform: rotate(360.36deg);} 
+		38.42% {-webkit-transform: rotate(240.24deg);} 
+		39.21% {-webkit-transform: rotate(291.72deg);} 
+		40.00% {-webkit-transform: rotate(351.78deg);} 
+		40.79% {-webkit-transform: rotate(248.82deg);} 
+		41.58% {-webkit-transform: rotate(420.42deg);} 
+		42.37% {-webkit-transform: rotate(265.98deg);} 
+		43.16% {-webkit-transform: rotate(240.24deg);} 
+		43.95% {-webkit-transform: rotate(291.72deg);} 
+		44.74% {-webkit-transform: rotate(205.92deg);} 
+		45.53% {-webkit-transform: rotate(60.06deg);} 
+		46.32% {-webkit-transform: rotate(223.08deg);} 
+		47.11% {-webkit-transform: rotate(291.72deg);} 
+		47.89% {-webkit-transform: rotate(265.98deg);} 
+		48.68% {-webkit-transform: rotate(351.78deg);} 
+		49.47% {-webkit-transform: rotate(248.82deg);} 
+		50.26% {-webkit-transform: rotate(420.42deg);} 
+		51.05% {-webkit-transform: rotate(489.06deg);} 
+		51.84% {-webkit-transform: rotate(489.06deg);} 
+		52.63% {-webkit-transform: rotate(489.06deg);} 
+		53.42% {-webkit-transform: rotate(420.42deg);} 
+		54.21% {-webkit-transform: rotate(566.28deg);} 
+		55.00% {-webkit-transform: rotate(411.84deg);} 
+		55.79% {-webkit-transform: rotate(386.1deg);} 
+		56.58% {-webkit-transform: rotate(420.42deg);} 
+		57.37% {-webkit-transform: rotate(411.84deg);} 
+		58.16% {-webkit-transform: rotate(420.42deg);} 
+		58.95% {-webkit-transform: rotate(377.52deg);} 
+		59.74% {-webkit-transform: rotate(300.3deg);} 
+		60.53% {-webkit-transform: rotate(291.72deg);} 
+		61.32% {-webkit-transform: rotate(420.42deg);} 
+		62.11% {-webkit-transform: rotate(489.06deg);} 
+		62.89% {-webkit-transform: rotate(489.06deg);} 
+		63.68% {-webkit-transform: rotate(489.06deg);} 
+		64.47% {-webkit-transform: rotate(420.42deg);} 
+		65.26% {-webkit-transform: rotate(257.4deg);} 
+		66.05% {-webkit-transform: rotate(394.68deg);} 
+		66.84% {-webkit-transform: rotate(343.2deg);} 
+		67.63% {-webkit-transform: rotate(351.78deg);} 
+		68.42% {-webkit-transform: rotate(283.14deg);} 
+		69.21% {-webkit-transform: rotate(411.84deg);} 
+		70.00% {-webkit-transform: rotate(265.98deg);} 
+		70.79% {-webkit-transform: rotate(360.36deg);} 
+		71.58% {-webkit-transform: rotate(420.42deg);} 
+		72.37% {-webkit-transform: rotate(317.46deg);} 
+		73.16% {-webkit-transform: rotate(411.84deg);} 
+		73.95% {-webkit-transform: rotate(343.2deg);} 
+		74.74% {-webkit-transform: rotate(265.98deg);} 
+		75.53% {-webkit-transform: rotate(248.82deg);} 
+		76.32% {-webkit-transform: rotate(420.42deg);} 
+		77.11% {-webkit-transform: rotate(489.06deg);} 
+		77.89% {-webkit-transform: rotate(489.06deg);} 
+		78.68% {-webkit-transform: rotate(489.06deg);} 
+		79.47% {-webkit-transform: rotate(420.42deg);} 
+		80.26% {-webkit-transform: rotate(291.72deg);} 
+		81.05% {-webkit-transform: rotate(343.2deg);} 
+		81.84% {-webkit-transform: rotate(317.46deg);} 
+		82.63% {-webkit-transform: rotate(291.72deg);} 
+		83.42% {-webkit-transform: rotate(368.94deg);} 
+		84.21% {-webkit-transform: rotate(248.82deg);} 
+		85.00% {-webkit-transform: rotate(265.98deg);} 
+		85.79% {-webkit-transform: rotate(291.72deg);} 
+		86.58% {-webkit-transform: rotate(283.14deg);} 
+		87.37% {-webkit-transform: rotate(420.42deg);} 
+		88.16% {-webkit-transform: rotate(566.28deg);} 
+		88.95% {-webkit-transform: rotate(669.24deg);} 
+		89.74% {-webkit-transform: rotate(780.78deg);} 
+		90.53% {-webkit-transform: rotate(617.76deg);} 
+		91.32% {-webkit-transform: rotate(703.56deg);} 
+		92.11% {-webkit-transform: rotate(780.78deg);} 
+		92.89% {-webkit-transform: rotate(617.76deg);} 
+		93.68% {-webkit-transform: rotate(703.56deg);} 
+		94.47% {-webkit-transform: rotate(712.14deg);} 
+		95.26% {-webkit-transform: rotate(609.18deg);} 
+		96.05% {-webkit-transform: rotate(780.78deg);} 
+		96.84% {-webkit-transform: rotate(849.42deg);} 
+		97.63% {-webkit-transform: rotate(849.42deg);} 
+		98.42% {-webkit-transform: rotate(849.42deg);} 
+		99.21% {-webkit-transform: rotate(849.42deg);} 
+		100.00% {-webkit-transform: rotate(849.42deg);} 
+	}
+
+	@-webkit-keyframes stretch{
+          0% {width: 100px;}
+          10% {width: 100px;}
+          100% {width: 2874px;}
+   	}</style></html>
